@@ -21,7 +21,7 @@ namespace SaveScreens
                     Directory.CreateDirectory(basePath);
                 }
 
-                if (image  is null)
+                if (image is null)
                 {
                     throw new Exception("Screenshot not in clipboard");
                 }
@@ -39,13 +39,18 @@ namespace SaveScreens
                     descriptionLabel.Text = "Screenshot saved, go retry!";
                     Clipboard.Clear();
                 }
+                using (StreamWriter writer = new StreamWriter("close_path.log", false))
+                {
+                    writer.WriteLine(pathBox.Text);
+                }
             }
 
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 descriptionLabel.Text = ex.Message;
             }
         }
+
         private static void GetClipboardImage(out Image? returnImage)
         {
             returnImage = null;
@@ -54,12 +59,13 @@ namespace SaveScreens
                 returnImage = Clipboard.GetImage();
             }
         }
+
         private static string GenerateRandomString(int length)
         {
             string symbols = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
             Random r = new Random();
             string str = "";
-            for(int i = 0; i<length;i++)
+            for (int i = 0; i < length; i++)
             {
                 var index = r.Next(symbols.Length);
                 string strSub = str + symbols[index];
@@ -67,7 +73,28 @@ namespace SaveScreens
             }
             return str;
 
-            
+
+        }
+
+        private void pathBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            if (!File.Exists("close_path.log"))
+            {
+                File.Create("close_path.log");
+            }
+            try
+            {
+                using (StreamReader reader = new StreamReader("close_path.log"))
+                {
+                    pathBox.Text = reader.ReadToEnd();
+                }
+            }
+            catch { }
         }
     }
 }

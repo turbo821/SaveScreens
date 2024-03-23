@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SaveScreens")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aac2498715e41aa950a8b99f21202eee08b3f55e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f886995a0549c132ab3f3c41ad0b1c00fd455888")]
 [assembly: System.Reflection.AssemblyProductAttribute("SaveScreens")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SaveScreens")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

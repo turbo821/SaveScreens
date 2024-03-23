@@ -49,6 +49,7 @@
             pathBox.Name = "pathBox";
             pathBox.Size = new Size(100, 23);
             pathBox.TabIndex = 1;
+            pathBox.TextChanged += pathBox_TextChanged;
             // 
             // descriptionLabel
             // 
@@ -68,6 +69,7 @@
             Controls.Add(saveButton);
             Name = "Form1";
             Text = "Saving screenshots to images";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -14,3 +14,4 @@ D:\VSProjects\C#\SaveScreens\SaveScreens\obj\Debug\net8.0-windows\refint\SaveScr
 D:\VSProjects\C#\SaveScreens\SaveScreens\obj\Debug\net8.0-windows\SaveScreens.pdb
 D:\VSProjects\C#\SaveScreens\SaveScreens\obj\Debug\net8.0-windows\SaveScreens.genruntimeconfig.cache
 D:\VSProjects\C#\SaveScreens\SaveScreens\obj\Debug\net8.0-windows\ref\SaveScreens.dll
+D:\VSProjects\C#\SaveScreens\SaveScreens\obj\Debug\net8.0-windows\SaveScreens.sourcelink.json
