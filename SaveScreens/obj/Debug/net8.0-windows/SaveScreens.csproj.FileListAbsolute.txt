@@ -1,0 +1,16 @@
+D:\VSProjects\C#\SaveScreens\SaveScreens\bin\Debug\net8.0-windows\SaveScreens.exe
+D:\VSProjects\C#\SaveScreens\SaveScreens\bin\Debug\net8.0-windows\SaveScreens.deps.json
+D:\VSProjects\C#\SaveScreens\SaveScreens\bin\Debug\net8.0-windows\SaveScreens.runtimeconfig.json
+D:\VSProjects\C#\SaveScreens\SaveScreens\bin\Debug\net8.0-windows\SaveScreens.dll
+D:\VSProjects\C#\SaveScreens\SaveScreens\bin\Debug\net8.0-windows\SaveScreens.pdb
+D:\VSProjects\C#\SaveScreens\SaveScreens\obj\Debug\net8.0-windows\SaveScreens.Form1.resources
+D:\VSProjects\C#\SaveScreens\SaveScreens\obj\Debug\net8.0-windows\SaveScreens.csproj.GenerateResource.cache
+D:\VSProjects\C#\SaveScreens\SaveScreens\obj\Debug\net8.0-windows\SaveScreens.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSProjects\C#\SaveScreens\SaveScreens\obj\Debug\net8.0-windows\SaveScreens.AssemblyInfoInputs.cache
+D:\VSProjects\C#\SaveScreens\SaveScreens\obj\Debug\net8.0-windows\SaveScreens.AssemblyInfo.cs
+D:\VSProjects\C#\SaveScreens\SaveScreens\obj\Debug\net8.0-windows\SaveScreens.csproj.CoreCompileInputs.cache
+D:\VSProjects\C#\SaveScreens\SaveScreens\obj\Debug\net8.0-windows\SaveScreens.dll
+D:\VSProjects\C#\SaveScreens\SaveScreens\obj\Debug\net8.0-windows\refint\SaveScreens.dll
+D:\VSProjects\C#\SaveScreens\SaveScreens\obj\Debug\net8.0-windows\SaveScreens.pdb
+D:\VSProjects\C#\SaveScreens\SaveScreens\obj\Debug\net8.0-windows\SaveScreens.genruntimeconfig.cache
+D:\VSProjects\C#\SaveScreens\SaveScreens\obj\Debug\net8.0-windows\ref\SaveScreens.dll
