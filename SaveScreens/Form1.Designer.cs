@@ -31,6 +31,7 @@
             saveButton = new Button();
             pathBox = new TextBox();
             descriptionLabel = new Label();
+            label1 = new Label();
             SuspendLayout();
             // 
             // saveButton
@@ -53,17 +54,26 @@
             // 
             // descriptionLabel
             // 
-            descriptionLabel.Location = new Point(47, 53);
+            descriptionLabel.Location = new Point(51, 53);
             descriptionLabel.Name = "descriptionLabel";
-            descriptionLabel.Size = new Size(229, 26);
+            descriptionLabel.Size = new Size(213, 26);
             descriptionLabel.TabIndex = 2;
             descriptionLabel.Text = "Enter the folder for saving screenshots";
+            // 
+            // label1
+            // 
+            label1.BackColor = SystemColors.Control;
+            label1.Location = new Point(108, 27);
+            label1.Name = "label1";
+            label1.Size = new Size(100, 14);
+            label1.TabIndex = 3;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(309, 185);
+            Controls.Add(label1);
             Controls.Add(descriptionLabel);
             Controls.Add(pathBox);
             Controls.Add(saveButton);
@@ -79,5 +89,6 @@
         private Button saveButton;
         private TextBox pathBox;
         private Label descriptionLabel;
+        private Label label1;
     }
 }
